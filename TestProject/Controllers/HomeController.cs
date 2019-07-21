@@ -10,6 +10,7 @@ namespace TestProject.Controllers
     {
         public ActionResult Index()
         {
+            ViewBag.msg = "fdfhd";
             return View();
         }
 
