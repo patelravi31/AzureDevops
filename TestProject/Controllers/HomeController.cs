@@ -11,6 +11,7 @@ namespace TestProject.Controllers
         public ActionResult Index()
         {
             //
+            var obj = new { id = 1 ,name ="Ravi"};
             ViewBag.msg = "fdfhd";
             return View();
         }
